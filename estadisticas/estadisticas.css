@@ -1,0 +1,34 @@
+.grid-estadisticas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.tarjeta-stat {
+  background-color: #ffffff;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.icono-stat {
+  font-size: 32px;
+  color: var(--azul);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.numero-stat {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--texto);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.etiqueta-stat {
+  font-size: 14px;
+  color: var(--texto-suave);
+  font-weight: 500;
+}

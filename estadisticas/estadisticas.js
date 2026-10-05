@@ -1,0 +1,35 @@
+const contenedorEstadisticas = document.getElementById('estadisticas');
+
+if (contenedorEstadisticas) {
+  contenedorEstadisticas.innerHTML = `
+    <section class="seccion seccion-fondo">
+      <div class="contenedor">
+        <div class="grid-estadisticas">
+          <div class="tarjeta-stat">
+            <i class="bi bi-check2-circle icono-stat"></i>
+            <div class="numero-stat">150+</div>
+            <p class="etiqueta-stat">Proyectos Entregados</p>
+          </div>
+
+          <div class="tarjeta-stat">
+            <i class="bi bi-emoji-smile icono-stat"></i>
+            <div class="numero-stat">98%</div>
+            <p class="etiqueta-stat">Clientes Felices</p>
+          </div>
+
+          <div class="tarjeta-stat">
+            <i class="bi bi-calendar3 icono-stat"></i>
+            <div class="numero-stat">5+</div>
+            <p class="etiqueta-stat">Años Desarrollando</p>
+          </div>
+
+          <div class="tarjeta-stat">
+            <i class="bi bi-clock-history icono-stat"></i>
+            <div class="numero-stat">24/7</div>
+            <p class="etiqueta-stat">Soporte y Asistencia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}

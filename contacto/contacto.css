@@ -1,0 +1,57 @@
+.caja-formulario {
+  background-color: #ffffff;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.campo-grupo {
+  margin-bottom: 18px;
+}
+
+.campo-grupo label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--texto);
+}
+
+.campo-grupo input,
+.campo-grupo select,
+.campo-grupo textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  outline: none;
+  font-family: inherit;
+  background-color: var(--fondo-suave);
+}
+
+.campo-grupo input:focus,
+.campo-grupo select:focus,
+.campo-grupo textarea:focus {
+  border-color: var(--azul);
+  background-color: #ffffff;
+}
+
+.boton-ancho {
+  width: 100%;
+  text-align: center;
+}
+
+.alerta-exito {
+  display: none;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}

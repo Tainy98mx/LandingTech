@@ -1,0 +1,75 @@
+.caja-calculadora {
+  background-color: #ffffff;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.fila-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fila-control label {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--texto);
+}
+
+.fila-control input {
+  width: 90px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  text-align: center;
+  outline: none;
+}
+
+.fila-control input:focus {
+  border-color: var(--azul);
+}
+
+.fila-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px dashed var(--borde);
+  border-bottom: 1px dashed var(--borde);
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: var(--texto-suave);
+}
+
+.fila-info strong {
+  color: var(--texto);
+  font-size: 16px;
+}
+
+.resultado-caja {
+  background-color: var(--azul-claro);
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+}
+
+.texto-resultado {
+  display: block;
+  font-size: 13px;
+  color: var(--texto-suave);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.precio-final {
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--azul);
+}
